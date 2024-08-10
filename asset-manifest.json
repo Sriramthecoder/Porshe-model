@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Porshe-model/static/css/main.48587fd3.css",
+    "main.js": "/Porshe-model/static/js/main.df33828a.js",
+    "index.html": "/Porshe-model/index.html",
+    "main.48587fd3.css.map": "/Porshe-model/static/css/main.48587fd3.css.map",
+    "main.df33828a.js.map": "/Porshe-model/static/js/main.df33828a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48587fd3.css",
+    "static/js/main.df33828a.js"
+  ]
+}
