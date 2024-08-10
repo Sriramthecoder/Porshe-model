@@ -3,6 +3,7 @@ import { useLayoutEffect, useRef, useState } from 'react'
 import { Canvas, applyProps, useFrame } from '@react-three/fiber'
 import { PerformanceMonitor, AccumulativeShadows, RandomizedLight, Environment, Lightformer, Float, useGLTF } from '@react-three/drei'
 import { LayerMaterial, Color, Depth } from 'lamina'
+const image = require('../src/911_transformed.glb')
 
 export function App() {
   const [degraded, degrade] = useState(false)
@@ -25,8 +26,9 @@ export function App() {
   )
 }
 
+
 function Porsche(props) {
-  const { scene, nodes, materials } = useGLTF('/911-transformed.glb')
+  const { scene, nodes, materials } = useGLTF(image)
   useLayoutEffect(() => {
     Object.values(nodes).forEach((node) => node.isMesh && (node.receiveShadow = node.castShadow = true))
     applyProps(materials.rubber, { color: '#222', roughness: 0.6, roughnessMap: null, normalScale: [4, 4] })
