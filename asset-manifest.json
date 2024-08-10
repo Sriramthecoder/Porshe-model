@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Porshe-model/static/css/main.48587fd3.css",
-    "main.js": "/Porshe-model/static/js/main.df33828a.js",
+    "main.js": "/Porshe-model/static/js/main.a1d54058.js",
+    "static/media/911_transformed.glb": "/Porshe-model/static/media/911_transformed.6f75e3f9812f50aa7c26.glb",
     "index.html": "/Porshe-model/index.html",
     "main.48587fd3.css.map": "/Porshe-model/static/css/main.48587fd3.css.map",
-    "main.df33828a.js.map": "/Porshe-model/static/js/main.df33828a.js.map"
+    "main.a1d54058.js.map": "/Porshe-model/static/js/main.a1d54058.js.map"
   },
   "entrypoints": [
     "static/css/main.48587fd3.css",
-    "static/js/main.df33828a.js"
+    "static/js/main.a1d54058.js"
   ]
 }
